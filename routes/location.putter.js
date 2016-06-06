@@ -17,7 +17,7 @@ format(cityJSON, conuntryJSON);
 
 function format(city, country) {
     var finalArr = [];
-    var i=1;
+    var i = 1;
 
 
     var temp = Object.keys(city);
@@ -48,7 +48,7 @@ function format(city, country) {
     }
     console.log(finalArr)
 
-    //putDB(finalArr);
+    putDB(finalArr);
 
 }
 
