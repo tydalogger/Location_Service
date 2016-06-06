@@ -14,15 +14,39 @@ db.once('open', function () {
     console.log("---------------- Mongo connected ------------------------");
 });
 
-var model = mongoose.model('locations', {});
+var model = mongoose.model('locations', {
+    locationId: String,
+    displayName: String,
+    countryId: String,
+    countryName: String
+});
 
 
 var services = {};
 
 services.getLocation = getLocation;
+services.putLocation = putLocation;
 
 
 module.exports = services;
+
+function putLocation(data) {
+    var deferred = Q.defer();
+
+    for (x in data) {
+        var record = new model(data[x]);
+        record.save(function (err) {
+            if (err) {
+                deferred.reject();
+            } else {
+                deferred.resolve();
+            }
+        });
+    }
+
+
+    return deferred.promise;
+}
 
 function getLocation(data) {
     var deferred = Q.defer();

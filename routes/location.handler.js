@@ -10,7 +10,7 @@ var locationModel = require('../model/location.model');
 
 router.get('/', function (req, res, next) {
     locationModel.getLocation(req.body).then(function (data) {
-
+        
     });
 });
 
