@@ -14,7 +14,7 @@ db.once('open', function () {
     console.log("---------------- Mongo connected ------------------------");
 });
 
-var model = mongoose.model('locations', {
+var location = mongoose.model('locations', {
     locationId: String,
     displayName: String,
     countryId: String,
@@ -34,7 +34,7 @@ function putLocation(data) {
     var deferred = Q.defer();
 
     for (x in data) {
-        var record = new model(data[x]);
+        var record = new location(data[x]);
         record.save(function (err) {
             if (err) {
                 deferred.reject();
@@ -50,9 +50,10 @@ function putLocation(data) {
 
 function getLocation(data) {
     var deferred = Q.defer();
+    var regexp = new RegExp("^" + data, "i");
 
-    model.find({location: data}, function (err, data) {
-
+    location.find({displayName: regexp}, function (err, data) {
+        deferred.resolve(data);
     });
 
     return deferred.promise;

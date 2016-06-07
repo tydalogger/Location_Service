@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bcb0b5fe-6d47-418e-be8b-46505f92a3d3" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/routes/location.putter.js" afterPath="$PROJECT_DIR$/routes/location.putter.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app.js" afterPath="$PROJECT_DIR$/app.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/model/location.model.js" afterPath="$PROJECT_DIR$/model/location.model.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/routes/location.handler.js" afterPath="$PROJECT_DIR$/routes/location.handler.js" />
     </list>
     <ignored path="Location_Service.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -26,44 +28,47 @@
       <file leaf-file-name="app.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+            <state relative-caret-position="323">
+              <caret line="26" column="0" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="location.putter.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/routes/location.putter.js">
+      <file leaf-file-name="www" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/bin/www">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="368">
-              <caret line="50" column="4" selection-start-line="50" selection-start-column="4" selection-end-line="50" selection-end-column="4" />
-              <folding>
-                <element signature="e#0#43#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="countries.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/data/countries.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="185657">
-              <caret line="10921" column="24" selection-start-line="10921" selection-start-column="24" selection-end-line="10921" selection-end-column="24" />
+            <state relative-caret-position="-119">
+              <caret line="19" column="3" selection-start-line="19" selection-start-column="3" selection-end-line="19" selection-end-column="3" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="freeformatter-out.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/data/freeformatter-out.json">
+      <file leaf-file-name="location.handler.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/routes/location.handler.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1089955">
-              <caret line="85084" column="21" selection-start-line="85084" selection-start-column="21" selection-end-line="85084" selection-end-column="21" />
-              <folding>
-                <element signature="e#56431#444839#0" expanded="false" />
-              </folding>
+            <state relative-caret-position="187">
+              <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+              <folding />
             </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="location.model.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/model/location.model.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="277">
+              <caret line="52" column="43" selection-start-line="52" selection-start-column="43" selection-end-line="52" selection-end-column="43" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="localhost/locationService/locations" pinned="false" current-in-tab="false">
+        <entry file="mongo://localhost/locationService/locations">
+          <provider selected="true" editor-type-id="MongoData">
+            <state />
           </provider>
         </entry>
       </file>
@@ -82,14 +87,14 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/routes/location.handler.js" />
         <option value="$PROJECT_DIR$/public/data/temp.json" />
         <option value="$PROJECT_DIR$/public/data/countriesToCities.json" />
-        <option value="$PROJECT_DIR$/app.js" />
-        <option value="$PROJECT_DIR$/model/location.model.js" />
         <option value="$PROJECT_DIR$/public/data/freeformatter-out.json" />
         <option value="$PROJECT_DIR$/public/data/countries.json" />
         <option value="$PROJECT_DIR$/routes/location.putter.js" />
+        <option value="$PROJECT_DIR$/app.js" />
+        <option value="$PROJECT_DIR$/routes/location.handler.js" />
+        <option value="$PROJECT_DIR$/model/location.model.js" />
       </list>
     </option>
   </component>
@@ -211,6 +216,20 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Location_Service" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Location_Service" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="Scope" />
@@ -229,21 +248,24 @@
       <recent name="C:\StackRoute-Vagrant-Node5-Mongo3.2\StackRoute\TE\Location_Service\public\data" />
     </key>
   </component>
-  <component name="RunManager" selected="Node.js.location.putter.js">
-    <configuration default="false" name="location.putter.js" type="MongoRunConfiguration" factoryName="Mongo" temporary="true">
-      <setting name="path" value="$PROJECT_DIR$/routes/location.putter.js" />
-      <setting name="shellParams" value="" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Node.js.www">
     <configuration default="false" name="location.putter.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="location.putter.js" working-dir="$PROJECT_DIR$/routes">
       <method />
     </configuration>
-    <configuration default="false" name="location.model.js" type="MongoRunConfiguration" factoryName="Mongo" temporary="true">
-      <setting name="path" value="$PROJECT_DIR$/model/location.model.js" />
+    <configuration default="false" name="location.handler.js" type="MongoRunConfiguration" factoryName="Mongo" temporary="true">
+      <setting name="path" value="$PROJECT_DIR$/routes/location.handler.js" />
       <setting name="shellParams" value="" />
       <method />
     </configuration>
-    <configuration default="false" name="location.model.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="location.model.js" working-dir="$PROJECT_DIR$/model">
+    <configuration default="false" name="location.handler.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="location.handler.js" working-dir="$PROJECT_DIR$/routes">
+      <method />
+    </configuration>
+    <configuration default="false" name="www" type="MongoRunConfiguration" factoryName="Mongo" temporary="true">
+      <setting name="path" value="$PROJECT_DIR$/bin/www" />
+      <setting name="shellParams" value="" />
+      <method />
+    </configuration>
+    <configuration default="false" name="www" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="www" working-dir="$PROJECT_DIR$/bin">
       <method />
     </configuration>
     <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
@@ -304,18 +326,20 @@
       <recursive>false</recursive>
       <method />
     </configuration>
-    <list size="4">
-      <item index="0" class="java.lang.String" itemvalue="Mongo.location.putter.js" />
-      <item index="1" class="java.lang.String" itemvalue="Node.js.location.putter.js" />
-      <item index="2" class="java.lang.String" itemvalue="Mongo.location.model.js" />
-      <item index="3" class="java.lang.String" itemvalue="Node.js.location.model.js" />
+    <list size="5">
+      <item index="0" class="java.lang.String" itemvalue="Node.js.location.putter.js" />
+      <item index="1" class="java.lang.String" itemvalue="Mongo.location.handler.js" />
+      <item index="2" class="java.lang.String" itemvalue="Node.js.location.handler.js" />
+      <item index="3" class="java.lang.String" itemvalue="Mongo.www" />
+      <item index="4" class="java.lang.String" itemvalue="Node.js.www" />
     </list>
     <recent_temporary>
-      <list size="4">
-        <item index="0" class="java.lang.String" itemvalue="Node.js.location.putter.js" />
-        <item index="1" class="java.lang.String" itemvalue="Node.js.location.model.js" />
-        <item index="2" class="java.lang.String" itemvalue="Mongo.location.model.js" />
-        <item index="3" class="java.lang.String" itemvalue="Mongo.location.putter.js" />
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="Node.js.www" />
+        <item index="1" class="java.lang.String" itemvalue="Mongo.www" />
+        <item index="2" class="java.lang.String" itemvalue="Node.js.location.handler.js" />
+        <item index="3" class="java.lang.String" itemvalue="Mongo.location.handler.js" />
+        <item index="4" class="java.lang.String" itemvalue="Node.js.location.putter.js" />
       </list>
     </recent_temporary>
   </component>
@@ -331,12 +355,12 @@
       <updated>1465192911427</updated>
       <workItem from="1465192918556" duration="1447000" />
       <workItem from="1465210698759" duration="14063000" />
-      <workItem from="1465243692443" duration="824000" />
+      <workItem from="1465243692443" duration="3394000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16334000" />
+    <option name="totallyTimeSpent" value="18904000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -347,7 +371,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.54575163" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2487725" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Mongo Explorer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14750378" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -413,56 +437,67 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
           <caret line="3" column="1" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/routes/location.handler.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="39" selection-start-line="6" selection-start-column="39" selection-end-line="6" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/model/location.model.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="18" column="24" selection-start-line="18" selection-start-column="24" selection-end-line="18" selection-end-column="24" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public/data/freeformatter-out.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1089955">
-          <caret line="85084" column="21" selection-start-line="85084" selection-start-column="21" selection-end-line="85084" selection-end-column="21" />
+        <state relative-caret-position="17">
+          <caret line="1" column="5" selection-start-line="1" selection-start-column="5" selection-end-line="1" selection-end-column="5" />
           <folding>
             <element signature="e#56431#444839#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/routes/location.putter.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="430">
+          <caret line="55" column="21" selection-start-line="55" selection-start-column="21" selection-end-line="55" selection-end-column="21" />
+          <folding>
+            <element signature="e#0#43#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/public/data/countries.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="185657">
-          <caret line="10921" column="24" selection-start-line="10921" selection-start-column="24" selection-end-line="10921" selection-end-column="24" />
+        <state relative-caret-position="170">
+          <caret line="10" column="25" selection-start-line="10" selection-start-column="25" selection-end-line="10" selection-end-column="25" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/routes/location.putter.js">
+    <entry file="file://$PROJECT_DIR$/bin/www">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="368">
-          <caret line="50" column="4" selection-start-line="50" selection-start-column="4" selection-end-line="50" selection-end-column="4" />
-          <folding>
-            <element signature="e#0#43#0" expanded="false" />
-          </folding>
+        <state relative-caret-position="-119">
+          <caret line="19" column="3" selection-start-line="19" selection-start-column="3" selection-end-line="19" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="26" column="0" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/location.handler.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/model/location.model.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="277">
+          <caret line="52" column="43" selection-start-line="52" selection-start-column="43" selection-end-line="52" selection-end-column="43" />
+          <folding />
         </state>
       </provider>
     </entry>
